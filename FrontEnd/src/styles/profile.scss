@@ -1,0 +1,25 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 92vh;
+  width: 100vw;
+  background-color: black;
+
+  &__event {
+    overflow-y: scroll;
+    position: relative;
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+  }
+}
+
+.profile-container::-webkit-scrollbar {
+  display: none;
+}

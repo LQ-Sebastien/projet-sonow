@@ -1,0 +1,41 @@
+.fav {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 100vw;
+  background-color: black;
+  height: 92vh;
+
+  &__events {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+
+    &__no-events {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &__content {
+        color: white;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.fav::-webkit-scrollbar {
+  display: none;
+}

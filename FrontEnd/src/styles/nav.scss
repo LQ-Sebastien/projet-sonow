@@ -1,0 +1,21 @@
+@import './properties.scss';
+
+.footer {
+
+  &__nav {
+
+    &__link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      text-align: center;
+    }
+    
+    &__title {
+      margin-top: 0.2rem;
+      font-size: 0.6rem;
+      padding-right: 0.2rem;
+    }
+  }
+}

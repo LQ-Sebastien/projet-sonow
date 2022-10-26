@@ -1,0 +1,44 @@
+[
+  {
+    "name":"Concert",
+    "color":"#FFF655",
+    "emoji":"🎸",
+    "slug":"concert"
+  },
+  {
+    "name":"Sorties entre amis",
+    "color":"#FF793B",
+    "emoji":"👯",
+    "slug":"sortie-entre-amis"
+  },
+  {
+    "name":"Sport",
+    "color":"#C6047F",
+    "emoji":"🏅",
+    "slug":"sport"
+  },
+  {
+    "name":"Afterwork",
+    "color":"#0FD3DE",
+    "emoji":"🥂",
+    "slug":"afterwork"
+  },
+  {
+    "name":"Spectacle",
+    "color":"##E20100",
+    "emoji":"🎭",
+    "slug":"spectacle"
+  },
+  {
+    "name":"À la Une",
+    "color":"##028E5A",
+    "emoji":"⭐️",
+    "slug":"a-la-une"
+  },
+  {
+    "name":"Éducation",
+    "color":"#3F4FEA",
+    "emoji":"📚",
+    "slug":"education"
+  }
+]
